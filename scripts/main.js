@@ -189,22 +189,7 @@ function updateBookmark(hikeDocID) {
 
 
 
-    })
+    })}
 
-
-
-//     // Manage the backend process to store the hikeDocID in the database, recording which hike was bookmarked by the user.
-// currentUser.update({
-//         bookmarks: firebase.firestore.FieldValue.arrayUnion(hikeDocID)
-//     })
-//     .then(function () {
-//         console.log("bookmark has been saved for" + hikeDocID);
-//         let iconID = 'save-' + hikeDocID;
-//         document.getElementById(iconID).innerText = 'bookmark';
-//         //this is to change the icon of the hike that was saved to "filled"
-//     });
-
-
-}
 
 
